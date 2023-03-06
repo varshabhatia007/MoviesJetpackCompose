@@ -1,6 +1,18 @@
 buildscript {
     ext {
         compose_ui_version = '1.2.0'
+        constraintlayoutVersion = "1.0.1"
+        coroutineVersion = "1.6.0"
+        coroutineAndroidVersion = "1.6.1"
+        hiltVersion = "2.41"
+        landscapistVersion = "1.4.9"
+        lifeCycleVersion = "2.5.1"
+        okhttp3Version ="5.0.0-alpha.2"
+        retrofitVersion = "2.9.0"
+        roomVersion = "2.5.0"
+    }
+    dependencies {
+        classpath('com.google.dagger:hilt-android-gradle-plugin:2.40.1')
     }
 }// Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
